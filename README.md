@@ -7,5 +7,7 @@ Link to GitPage: https://mitchglass97.github.io/calculator/
 
 ### To-do list
 Some improvements could be made.
-- [] Show the entire current expression on the display 
-- [] Add comma's to numbers as they are being entered
+- [ ] Show the entire current expression on the display 
+- [ ] Add comma's to numbers as they are being entered
+- [ ] Delete/backspace button
+- [ ] Add keyboard support

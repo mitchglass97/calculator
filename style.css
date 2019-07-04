@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FAEAEB;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color: #F45B69;
+}
+
+b {
+    font-size: 30px;
+    color: #F0B7BC;
+    background-color: #E16973;
+}
+
+h1 {
+    font-size: 80px;
+    background-color: #E16973;
+    color: #FAEAEB;
+}
+
+
+.page {
+    height: 100vh;
+    display: flex;
+}
+
+.left-half {
+    min-width: 500px;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#E16973;
+}
+
+.right-half {
+    min-width: 500px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAEAEB;
+    flex-direction: column;
+}
+
+#calc-row {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding: 5px 20px;
+    float: right;
+    background-color: #E16973;
+    color: #22181C;
+}
+
+#calculator {
+    border: none;
+    height: 50vh;
+    width: 50vh;
+    background-color: #FAEAEB;
+    color: #FAEAEB;
+}
+
+#result {
+    color: black;
+    font-size:30px;
+}
+
+#calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    background-color: #E16973;
+    border: none;
+    outline: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr {
+    border: none;
+    background-color: #E16973;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    background-color: #E16973;
+    color: black;
+    outline: none;
+    border: none;
+    font-size:25px;
+}
+
+#result {
+    color: black;
+    background-color: #E16973;
+    max-width: 344px;
+}
+
+td:hover, td:hover input {
+    background-color: #F6D2D5;
+    color: #E16973;
+}
+
+#no-hover:hover {
+    background-color: #E16973;
+    color: #E16973;
+}

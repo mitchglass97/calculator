@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+    @font-face {
+        font-family: "digital";
+        src: url("./DS-DIGI.ttf");
+    }
+    .digital {
+        font-family: "digital";
+    }
+</style>
+
+<body>
+    <section class="page">
+        <div class="left-half">
+            <h1>
+                Caclulator
+            </h1>
+            <h2><b class = "digital" id="sub-title">Beep Boop</b></h2>
+        </div>
+        <div class="right-half">
+            <div id="calculator-container">
+                <table id="calculator">
+                    <tr class="calc-row" id="result-row">
+                        <td colspan="4" id="result">0</td> 
+                    </tr>
+                    <tr class="calc-row">
+                        <td><input type="button" value="AC" onclick="clearResults()"/> </td> 
+                        <td><input type="button" value="+/-" onclick="invert()"/> </td> 
+                        <td id='no-hover'></td> 
+                        <td><input type="button" value="/" onclick="operate(3)"/> </td> 
+                    </tr>
+                    <tr class="calc-row">
+                            <td><input type="button" value="7" onclick="enter('7')"/> </td> 
+                            <td><input type="button" value="8" onclick="enter('8')"/> </td> 
+                            <td><input type="button" value=" 9 " onclick="enter('9')"/> </td> 
+                            <td><input type="button" value="X" onclick="operate(2)"/> </td> 
+                    </tr>
+                    <tr class="calc-row">
+                            <td><input type="button" value="4" onclick="enter('4')"/> </td> 
+                            <td><input type="button" value="5" onclick="enter('5')"/> </td> 
+                            <td><input type="button" value="6" onclick="enter('6')"/> </td> 
+                            <td><input type="button" value="-" onclick="operate(1)"/> </td> 
+                    </tr>
+                    <tr class="calc-row">
+                            <td><input type="button" value="1" onclick="enter('1')"/> </td> 
+                            <td><input type="button" value="2" onclick="enter('2')"/> </td> 
+                            <td><input type="button" value="3" onclick="enter('3')"/> </td> 
+                            <td><input type="button" value="+" onclick="operate(0)"/> </td> 
+                    </tr>
+                    <tr class="calc-row">
+                            <td colspan="2"><input type="button" value="0" onclick="enter('0')"/> </td> 
+                            <td><input type="button" value="." onclick="enter('.')"/> </td> 
+                            <td><input type="button" value="=" onclick="compute()"/> </td> 
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+  <script src="./index.js"></script>
+</body>
+</html>

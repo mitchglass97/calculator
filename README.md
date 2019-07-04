@@ -1,0 +1,2 @@
+### About
+Simple browser calculator.
